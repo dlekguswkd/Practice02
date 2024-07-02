@@ -17,7 +17,7 @@ public class Ex20 {
 		System.out.print("알파벳: "); 
 		char al =sc.next().charAt(0);	// al은 알파벳
 		
-		/*
+		/*내가해본 잘못된 답
 		 if (al='a' || al='e' || al='i' || al='o' || al='u') {
 		 
 			System.out.println("모음입니다.");
@@ -27,6 +27,25 @@ public class Ex20 {
 		
 		sc.close();
 		*/
+		///////////////////////////////////////////////
+		
+		/*이게 진짜 답
+		 String alphabet; //글자
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("알파벳 1글자(소문자)를 입력하세요");
+		System.out.print("알파벳: ");
+		alphabet = sc.nextLine();
+		
+		if(	alphabet.equals("a") || alphabet.equals("e") || 
+		    alphabet.equals("i") || alphabet.equals("o") || alphabet.equals("u") ) {
+			
+			System.out.println("모음입니다.");
+		} else {
+			
+			System.out.println("자음입니다.");
+		}
+		 */
 	}
 
 }

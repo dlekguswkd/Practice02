@@ -16,6 +16,8 @@ public class Ex18 {
 		System.out.println("알파벳 1글자(소문자)를 입력하세요");
 		System.out.print("알파벳: "); 
 		char al =sc.next().charAt(0);	// al은 알파벳
+		//위에 한줄대신 String alphabet; //글자
+		//위에 한줄대신 alphabet = sc.nextLine();
 		
 		switch (al) {
 			case 'a':
